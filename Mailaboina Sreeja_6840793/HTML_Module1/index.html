@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Local Community Event Portal
+    </title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+<body>
+
+    <!-- ================= HEADER SECTION ================= -->
+
+    <header>
+
+        <h1>
+            Local Community Event Portal
+        </h1>
+
+        <p>
+            Bringing People Together Through Events
+        </p>
+
+    </header>
+
+
+    <!-- ================= NAVIGATION BAR ================= -->
+
+    <nav>
+
+        <ul>
+
+            <li>
+                <a href="#home">
+                    Home
+                </a>
+            </li>
+
+            <li>
+                <a href="#events">
+                    Events
+                </a>
+            </li>
+
+            <li>
+                <a href="#gallery">
+                    Gallery
+                </a>
+            </li>
+
+            <li>
+                <a href="#register">
+                    Register
+                </a>
+            </li>
+
+            <li>
+                <a href="#feedbackSection">
+                    Feedback
+                </a>
+            </li>
+
+            <li>
+                <a href="#videoSection">
+                    Video
+                </a>
+            </li>
+
+            <li>
+                <a href="#locationSection">
+                    Location
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+    <!-- ================= TASK 1 : WELCOME SECTION ================= -->
+
+    <section id="home">
+
+        <div id="welcomeBanner">
+
+            Welcome to Community Portal
+
+            <span class="offerText">
+
+                Free Registration Available!
+
+            </span>
+
+        </div>
+
+        <p class="highlight">
+
+            Explore exciting community events happening near you.
+
+        </p>
+
+    </section>
+
+
+    <!-- ================= TASK 2 : EVENTS SECTION ================= -->
+
+    <section id="events">
+
+        <h2>
+            Upcoming Events
+        </h2>
+
+        <div class="eventContainer">
+
+            <div class="eventBox">
+
+                <h3>
+                    Music Festival
+                </h3>
+
+                <p>
+                    Enjoy live music and entertainment.
+                </p>
+
+            </div>
+
+            <div class="eventBox">
+
+                <h3>
+                    Food Carnival
+                </h3>
+
+                <p>
+                    Taste delicious foods from different cultures.
+                </p>
+
+            </div>
+
+            <div class="eventBox">
+
+                <h3>
+                    Dance Competition
+                </h3>
+
+                <p>
+                    Watch energetic dance performances.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- ================= COMMUNITY NEWS SECTION ================= -->
+
+<section id="news">
+
+    <h2>
+        Community News
+    </h2>
+
+    <div class="newsArticle">
+
+        The city council has announced several new community development
+        programs aimed at improving public facilities and encouraging
+        citizen participation. Residents are invited to take part in
+        upcoming workshops, cultural festivals, health awareness drives,
+        and educational campaigns.
+
+        These initiatives are designed to strengthen community bonds,
+        promote local talent, and create opportunities for people of all
+        age groups. Special focus will be given to youth engagement,
+        environmental sustainability, and digital literacy programs.
+
+        Community members are encouraged to register through the Local
+        Community Event Portal and stay updated with the latest events and
+        announcements. Volunteers are also welcome to contribute their
+        skills and support various activities organized throughout the year.
+
+        The council hopes that these programs will foster a stronger sense
+        of belonging and create a vibrant environment where residents can
+        connect, learn, and grow together.
+        
+    </div>
+
+</section>
+
+    <!-- ================= TASK 3 : IMAGE GALLERY ================= -->
+
+    <section id="gallery">
+
+        <h2>
+            Community Event Gallery
+        </h2>
+
+        <table>
+
+            <!-- Row 1 -->
+
+            <tr>
+
+                <td>
+
+                    <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400"
+                         alt="Music Event"
+                         title="Music Festival"
+                         class="galleryImage"
+                         ondblclick="enlargeImage(this)">
+
+                    <p>
+                        Music Festival Event
+                    </p>
+
+                </td>
+
+                <td>
+
+                    <img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?w=400"
+                         alt="Food Festival"
+                         title="Food Carnival"
+                         class="galleryImage"
+                         ondblclick="enlargeImage(this)">
+
+                    <p>
+                        Food Carnival Event
+                    </p>
+
+                </td>
+
+                <td>
+
+                    <img src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=400"
+                         alt="Dance Competition"
+                         title="Dance Show"
+                         class="galleryImage"
+                         ondblclick="enlargeImage(this)">
+
+                    <p>
+                        Dance Competition
+                    </p>
+
+                </td>
+
+            </tr>
+
+
+            <!-- Row 2 -->
+
+            <tr>
+
+                <td>
+
+                    <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?w=400"
+                         alt="Book Fair"
+                         title="Book Exhibition"
+                         class="galleryImage">
+
+                    <p>
+                        Book Fair Event
+                    </p>
+
+                </td>
+
+                <td>
+
+                    <img src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=400"
+                         alt="Sports Event"
+                         title="Sports Meet"
+                         class="galleryImage">
+
+                    <p>
+                        Sports Meet
+                    </p>
+
+                </td>
+
+                <td>
+
+                    <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=400"
+                         alt="Community Meetup"
+                         title="Community Gathering"
+                         class="galleryImage">
+
+                    <p>
+                        Community Meetup
+                    </p>
+
+                </td>
+
+            </tr>
+
+        </table>
+
+    </section>
+
+
+    <!-- ================= TASK 4 : REGISTRATION FORM ================= -->
+
+    <section id="register">
+
+        <h2>
+            Register for Events
+        </h2>
+
+        <form>
+
+            <input type="text"
+                   placeholder="Enter Your Name"
+                   required
+                   autofocus>
+
+            <br><br>
+
+            <input type="email"
+                   placeholder="Enter Your Email"
+                   required>
+
+            <br><br>
+
+            <input type="text"
+                   id="phone"
+                   placeholder="Enter Phone Number"
+                   onblur="validatePhone()"
+                   required>
+
+            <br><br>
+
+            <input type="date"
+                   required>
+
+            <br><br>
+
+            <select id="eventType"
+                    onchange="showFee()">
+
+                <option value="">
+                    Select Event
+                </option>
+
+                <option value="100">
+                    Music Festival
+                </option>
+
+                <option value="150">
+                    Food Carnival
+                </option>
+
+                <option value="200">
+                    Dance Competition
+                </option>
+
+            </select>
+
+            <p id="eventFee">
+            </p>
+
+            <textarea id="feedback"
+                      placeholder="Enter Your Message"
+                      onkeyup="countCharacters()">
+            </textarea>
+
+            <p id="charCount">
+                Characters: 0
+            </p>
+
+            <br>
+
+            <button type="button"
+                    onclick="showConfirmation()">
+
+                Register Now
+
+            </button>
+
+            <br><br>
+
+            <output id="outputMessage">
+            </output>
+
+        </form>
+
+    </section>
+
+
+    <!-- ================= TASK 5 : VIDEO SECTION ================= -->
+<!-- ================= VIDEO SECTION ================= -->
+
+<section id="videoSection">
+
+    <h2>
+        Event Promo Video
+    </h2>
+
+    <video width="700"
+           controls
+           oncanplay="videoReady()">
+
+        <source src="sample.mp4"
+                type="video/mp4">
+        Your browser does not support video.
+    </video>
+    <p id="videoMessage">
+    </p>
+</section>
+
+    <!-- ================= TASK 6 : STORAGE SECTION ================= -->
+
+    <section id="feedbackSection">
+        <h2>
+            Save User Preferences
+        </h2>
+        <button onclick="savePreference()">
+            Save Preference
+        </button>
+        <button onclick="clearPreferences()">
+            Clear Preferences
+        </button>
+    </section>
+    <!-- ================= TASK 7 : GEOLOCATION ================= -->
+    <section id="locationSection">
+        <h2>
+            Find Nearby Events
+        </h2>
+        <button onclick="findLocation()">
+            Find Nearby Events
+        </button>
+        <p id="location">
+        </p>
+    </section>
+    <!-- ================= FOOTER SECTION ================= -->
+    <footer>
+        <p>
+            communityportal@gmail.com
+        </p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
